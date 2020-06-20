@@ -25,3 +25,34 @@ https://towardsdatascience.com/machine-learning-multiclass-classification-with-i
 ## Learn tensorflow
 
 https://developers.google.com/machine-learning/crash-course/first-steps
+
+## Coursera - Introduction to TensorFlow
+
+TensorFlow Hello World
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb
+
+Introduction to Computer Vision
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb
+
+Introduction to Convolution and Max Pooling
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%202%20-%20Notebook.ipynb
+
+Build a classification model for Horse and Human
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%202%20-%20Notebook.ipynb
+
+## Coursera - CNN with TensorFlow
+
+Build a simple model on Cats and Dogs data
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%202%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb
+
+Data Augmentation on Cats and Dogs data
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%202%20-%20Part%204%20-%20Lesson%202%20-%20Notebook%20(Cats%20v%20Dogs%20Augmentation).ipynb
+
+A model on Horse and Human data
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%202%20-%20Part%204%20-%20Lesson%204%20-%20Notebook.ipynb
+
+Transfer learning from InceptionV3 for Cats and Dogs data
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%202%20-%20Part%206%20-%20Lesson%203%20-%20Notebook.ipynb
+
+Multiclass classification with Rock - Paper - Scissors
+https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%202%20-%20Part%208%20-%20Lesson%202%20-%20Notebook%20(RockPaperScissors).ipynb
