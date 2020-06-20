@@ -22,3 +22,6 @@ https://medium.com/@vijayabhaskar96/tutorial-on-keras-flow-from-dataframe-1fd449
 
 https://towardsdatascience.com/machine-learning-multiclass-classification-with-imbalanced-data-set-29f6a177c1a
 
+## Learn tensorflow
+
+https://developers.google.com/machine-learning/crash-course/first-steps
