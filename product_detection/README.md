@@ -1,6 +1,21 @@
+# Product Detection
 
+Student Category
 
-## Student Category - Link to data
+TanHaus achieved rank 133 in the Private Leaderboard ([link](https://www.kaggle.com/c/shopee-product-detection-student/leaderboard)), with Top-1 accuracy score of 0.79218 and placed at top 20%.
+
+## Outline of the work
+- Oversample the minority classes to create a balanced dataset
+- Perform transfer learning on a pre-trained BiT-M R50x1 from TensorFlow Hub ([link](https://tfhub.dev/google/bit/m-r50x1/1))
+- Apply traditional and moden image augmentation techniques (e.g. CutOut, MixUp)
+
+BiT-M was chosen because it was designed specifically for efficient and fast transfer learning. The team also tried transfer learning with EfficientNet B3 and ResNet50, but was not able to match the performance of BiT-M.
+
+Training was done on Google Colab (K80, T4, or P100), Kaggle notebook (P100), and GCP notebook (T4).
+
+Detailed explanation of the code can be found in the [notebook](notebook.ipynb)
+
+## Link to dataset
 
 Link 1: https://drive.google.com/drive/folders/1V_sHZN2MmhcfeVao3hoJpjRWLSnm1_Pe
 
@@ -8,25 +23,14 @@ Link 2: https://drive.google.com/drive/folders/1PIJHZ6QXU5rjskT7dIimyEUdQJ84YvoR
 
 ## Resources
 
-https://www.tensorflow.org/tutorials/images/classification
+TensorFlow has a good collection of tutorials. Most of TanHaus code for Product Detection is derived from the official tutorials
 
-https://www.tensorflow.org/tutorials/keras/classification
+Name | Link | What
+-----|------|------
+Load image dataset | https://www.tensorflow.org/tutorials/load_data/images | Use `tf.data.Dataset` for fast and efficient data loading
+Transfer learning with TensorFlow Hub| https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub | Transfer learning from a model on TensorFlow Hub
 
-https://www.tensorflow.org/tutorials/load_data/images
-
-https://www.tensorflow.org/tutorials/images/transfer_learning
-
-https://towardsdatascience.com/having-an-imbalanced-dataset-here-is-how-you-can-solve-it-1640568947eb
-
-https://medium.com/@vijayabhaskar96/tutorial-on-keras-flow-from-dataframe-1fd4493d237c
-
-https://towardsdatascience.com/machine-learning-multiclass-classification-with-imbalanced-data-set-29f6a177c1a
-
-## Learn tensorflow
-
-https://developers.google.com/machine-learning/crash-course/first-steps
-
-## Coursera - Introduction to TensorFlow
+### Coursera - Introduction to TensorFlow
 
 Title | Notebook link
 ------|--------------
@@ -35,7 +39,7 @@ Introduction to Computer Vision | https://colab.research.google.com/github/lmoro
 Introduction to Convolution and Max Pooling | https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%202%20-%20Notebook.ipynb
 Build a classification model for Horse and Human | https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%202%20-%20Notebook.ipynb
 
-## Coursera - CNN with TensorFlow
+### Coursera - CNN with TensorFlow
 
 Title | Notebook link
 ------|--------------
