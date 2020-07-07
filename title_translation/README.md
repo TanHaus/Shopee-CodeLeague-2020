@@ -19,6 +19,8 @@ Name | Link | What
 -----|------|------
 Nematus | https://github.com/EdinburghNLP/nematus | Attention-based encoder-decoder model for neural machine translation built in Tensorflow 
 OpenNMT-tf | https://github.com/OpenNMT/OpenNMT-tf | neural machine translation and neural sequence learning
+Jieba tokenizer | https://github.com/fxsjy/jieba | Tokenizer for Traditional Chinese
+Moses tokenizer (Python) | https://github.com/alvations/sacremoses| Tokenizer for English
 
 
 ## Learning
