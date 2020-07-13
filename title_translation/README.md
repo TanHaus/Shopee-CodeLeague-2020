@@ -2,6 +2,12 @@
 
 Dataset: https://drive.google.com/drive/folders/1M1xMwlp1kPkpPkcQA4JLbwu0r87U6B8s?usp=sharing
 
+Command to run MUSE
+
+```python
+python unsupervised.py --src_lang en --tgt_lang zh --src_emb ../en_vect.bin --tgt_emb ../tcn_vect.bin --n_refinement 5 --normalize_embeddings center --emb_dim 300 --dis_most_frequent 20000
+```
+
 ## Machine Translation Datasets
 
 Parallel datasets for supervised learning
