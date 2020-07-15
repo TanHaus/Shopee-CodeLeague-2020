@@ -7,6 +7,7 @@ This repo contains:
 - [Product detection](product_detection)
 - [Programming #1](programming_1)
 - [Title translation](title_translation)
+- [Logistics](logistics)
 
 ## Ranking
 
@@ -15,3 +16,4 @@ Competition | Link | Description
 Order brushing | asdf | Detect e-commerce vendors who make suspicious orders
 Product detection | https://www.kaggle.com/c/shopee-product-detection-student | Classify product images based on labelled data
 Title translation | https://www.kaggle.com/c/student-shopee-code-league-product-translation | Translate product titles from Traditional Chinese to English with only monoligual corpus
+Logistics | https://www.kaggle.com/c/logistics-shopee-code-league | Label late orders
