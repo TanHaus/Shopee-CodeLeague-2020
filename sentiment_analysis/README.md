@@ -1,12 +1,12 @@
 # Sentiment Analysis
 
-Code for `fastText`
+Code for `fastText` (can try play with the parameters. Or even better, write a script to check all different possible combinations and use the parameter combination that gives the highest validation accuracy)
 
 ```python
 import fasttext
 
 # Train the model
-model = fasttext.train_supervised('fasttext.txt', dim=50, epoch=25, wordNgrams=3)
+model = fasttext.train_supervised('fasttext.txt', lr=0.001, dim=300, epoch=300, wordNgrams=2)
 
 # Evaluate the model
 model.test('fasttext_val.txt')
